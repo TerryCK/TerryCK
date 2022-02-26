@@ -1,6 +1,7 @@
 ### Hi there 👋
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=terryck&hide=javascript,html&layout=compact" />
-<img align="right" src=" https://github-readme-stats.vercel.app/api?username=terryck&show_icons=true&hide_title=true&count_private=true" />
+
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=terryck&show_icons=true&hide_title=true&count_private=true" />
 
 <!--![README Stats](https://github-readme-stats.vercel.app/api?username=terryck&show_icons=true&hide_title=true&count_private=true)-->
 <!--
