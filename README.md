@@ -1,4 +1,5 @@
 ### Hi there 👋
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=terryck&hide=javascript,html&layout=compact" />
 
 <!--
 **TerryCK/TerryCK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
