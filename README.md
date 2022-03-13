@@ -5,7 +5,7 @@
 <!--<img align="right" src="https://github-readme-stats.vercel.app/api?username=terryck&show_icons=true&hide_title=true&count_private=true" />
 -->
 
-I'm Terry 😀, an iOS developer from Taiwan 🇹🇼
+I'm Terry 😀, an iOS developer from Taiwan  🇹🇼
 
 ## iOS Apps
 
