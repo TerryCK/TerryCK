@@ -34,6 +34,12 @@ Senior mobile engineer with **8+ years** shipping consumer apps end-to-end — a
 
 ---
 
+## Growth & Impact
+
+**10B+** downloads across the Tap portfolio I build for &nbsp;·&nbsp; **10M+** downloads on Walli (Tap's flagship) &nbsp;·&nbsp; **16,000+** App Store ratings on my own apps (up to **5.0★**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
+
+---
+
 ## Core Skills
 
 **iOS** — Swift · SwiftUI · UIKit · Combine · StoreKit (IAP / subscriptions) · WidgetKit · Live Activities & Dynamic Island · MapKit
