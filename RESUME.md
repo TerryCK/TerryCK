@@ -17,7 +17,10 @@ AI Companion, Prompt Engineering, Developer Tooling, AI Automation.
 Full-Stack Mobile (iOS · Android · Backend) · LLM agents & multi-model automation
 Taiwan 🇹🇼 · Open to remote & international roles · APAC time zone
 
-📫 [vul354@gmail.com](mailto:vul354@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/terry-chen-3350a681) &nbsp;·&nbsp; 💻 [GitHub](https://github.com/terryck) &nbsp;·&nbsp; 📱 [App Store Portfolio](https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144)
+📫 **Email:** [vul354@gmail.com](mailto:vul354@gmail.com)
+🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681
+💻 **GitHub:** https://github.com/terryck
+📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144
 
 **Indie apps:** [🗑️ Garbage Truck Tracker](https://apps.apple.com/tw/app/id1527915502) &nbsp;·&nbsp; [🔋 Go Battery](https://apps.apple.com/tw/app/id1271037665) &nbsp;·&nbsp; [🚲 UBike eBike Planner](https://apps.apple.com/tw/app/id6587562314) &nbsp;·&nbsp; [🎬 2Live Wallpaper](https://apps.apple.com/tw/app/id6749788676)
 
