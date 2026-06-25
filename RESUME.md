@@ -17,7 +17,9 @@ AI Companion, Prompt Engineering, Developer Tooling, AI Automation.
 Full-Stack Mobile (iOS · Android · Backend) · LLM agents & multi-model automation
 Taiwan 🇹🇼 · Open to remote & international roles · APAC time zone
 
-📫 [vul354@gmail.com](mailto:vul354@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/terry-chen-3350a681) &nbsp;·&nbsp; 📱 [App Store Portfolio](https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144) &nbsp;·&nbsp; 💻 [GitHub](https://github.com/terryck)
+📫 [vul354@gmail.com](mailto:vul354@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/terry-chen-3350a681) &nbsp;·&nbsp; 💻 [GitHub](https://github.com/terryck) &nbsp;·&nbsp; 📱 [App Store Portfolio](https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144)
+
+**Indie apps:** [🗑️ Garbage Truck Tracker](https://apps.apple.com/tw/app/id1527915502) &nbsp;·&nbsp; [🔋 Go Battery](https://apps.apple.com/tw/app/id1271037665) &nbsp;·&nbsp; [🚲 UBike eBike Planner](https://apps.apple.com/tw/app/id6587562314) &nbsp;·&nbsp; [🎬 2Live Wallpaper](https://apps.apple.com/tw/app/id6749788676)
 
 ---
 
@@ -81,10 +83,10 @@ Proactively build agentic AI systems that compound engineering output:
 
 | App | What it does | Traction |
 |---|---|---|
-| 🗑️ **Garbage Truck Tracker** | Real-time GPS tracking of municipal trucks across 20+ Taiwan cities — Live Activities, Dynamic Island, home-screen widgets, smart arrival alerts | ⭐ 4.3 · **8,800+** ratings · since 2020 |
-| 🔋 **Go Battery** | Trip planner that chains EV battery-swap stations so riders never run out of charge on long routes | ⭐ 4.7 · **7,500+** ratings · since 2017 |
-| 🚲 **UBike eBike Planner** | Shared e-bike journey planning with live rental status and Live Activities | ⭐ 4.8 · since 2024 |
-| 🎬 **2Live – Live Wallpaper Creator** | Converts any video into a live wallpaper; swipe-to-browse gallery with one-tap like & download | ⭐ 5.0 · since 2025 |
+| 🗑️ **[Garbage Truck Tracker](https://apps.apple.com/tw/app/id1527915502)** | Real-time GPS tracking of municipal trucks across 20+ Taiwan cities — Live Activities, Dynamic Island, home-screen widgets, smart arrival alerts | ⭐ 4.3 · **8,800+** ratings · since 2020 |
+| 🔋 **[Go Battery](https://apps.apple.com/tw/app/id1271037665)** | Trip planner that chains EV battery-swap stations so riders never run out of charge on long routes | ⭐ 4.7 · **7,500+** ratings · since 2017 |
+| 🚲 **[UBike eBike Planner](https://apps.apple.com/tw/app/id6587562314)** | Shared e-bike journey planning with live rental status and Live Activities | ⭐ 4.8 · since 2024 |
+| 🎬 **[2Live – Live Wallpaper Creator](https://apps.apple.com/tw/app/id6749788676)** | Converts any video into a live wallpaper; swipe-to-browse gallery with one-tap like & download | ⭐ 5.0 · since 2025 |
 
 📱 Full portfolio: https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144
 
