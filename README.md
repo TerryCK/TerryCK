@@ -17,7 +17,9 @@ I build mobile at **Tap**, an **Israeli AI company** shipping **cutting-edge con
 
 📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681 &nbsp;·&nbsp; 📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144 &nbsp;·&nbsp; 📫 **Email:** vul354@gmail.com
+🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681
+📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144
+📫 **Email:** vul354@gmail.com
 
 ---
 
