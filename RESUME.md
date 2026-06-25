@@ -27,7 +27,7 @@ Taiwan 🇹🇼 · Open to remote & international roles · APAC time zone
 
 Senior mobile engineer with **8+ years** shipping consumer apps end-to-end — and a **proactive AI agentic-workflow developer** who builds multi-model automation that ships those apps faster. I work across native **iOS** and **Android**, the **backend** that powers them, and the **AI agent tooling** around the whole pipeline.
 
-- At **Tap**, an Israeli studio building **cutting-edge AI-powered consumer apps** (portfolio over **10 billion downloads**), I own mobile development across **Walli** and **Luna** (iOS, Android, and backend) and ship iOS for **Charm**, **PrimeVPN**, and **TapPDF** — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion product.
+- At **Tap**, an **Israeli AI company** building **cutting-edge consumer apps** (portfolio over **10 billion downloads**), I own mobile development across **Walli** and **Luna** (iOS, Android, and backend) and ship iOS for **Charm**, **PrimeVPN**, and **TapPDF** — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion product.
 - I build **AI agentic workflows**: multi-model orchestration (Claude / Codex / Gemini), custom agents, skills & slash-commands, and MCP tool integrations that automate build → test → review → release, and I use agentic coding day-to-day to ship real features.
 - My **independently published iOS apps** have earned **16,000+ App Store ratings** (up to **5.0★**), with real-time products used daily across **20+ cities**.
 - Comfortable owning the full lifecycle: architecture → native UI → real-time data & cloud sync → App Store release → ASO & growth.
@@ -49,7 +49,7 @@ Senior mobile engineer with **8+ years** shipping consumer apps end-to-end — a
 ### Tap — Senior Mobile Engineer (iOS · Android · Backend)
 *Israel (remote) · 2022 – Present*
 
-Tap is an Israeli studio building **cutting-edge AI-powered consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I lead cross-platform development across several of its products:
+Tap is an **Israeli AI company** building **cutting-edge consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I lead cross-platform development across several of its products:
 
 - Own **end-to-end iOS, Android, and backend** development for **Walli** and **Luna** — shipping features, real-time data, and StoreKit subscriptions to a worldwide audience across a portfolio of **10B+ downloads**.
 - Extended the **RAG-powered AI-character harness** behind **Luna** (an AI companion) — wiring **Retrieval-Augmented Generation** that grounds character responses in retrieved memory/context, improving conversational relevance and bridging mobile delivery with applied LLM engineering.

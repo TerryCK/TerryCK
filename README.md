@@ -7,7 +7,7 @@
 
 I'm **Terry** — a **Senior iOS / full-stack mobile engineer** *and* **proactive AI agentic-workflow developer** from Taiwan 🇹🇼. I ship consumer apps end-to-end across **iOS, Android, and backend**, and build **multi-model AI agent automation** that ships them faster.
 
-I build mobile at **[Tap](https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144)**, an Israeli studio shipping **cutting-edge AI-powered consumer apps** (portfolio over **10 billion downloads**) — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion. My own **published iOS apps** have earned **16,000+ App Store ratings** (up to **5.0★**), used daily across 20+ cities.
+I build mobile at **Tap**, an **Israeli AI company** shipping **cutting-edge consumer apps** (portfolio over **10 billion downloads**) — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion. My own **published iOS apps** have earned **16,000+ App Store ratings** (up to **5.0★**), used daily across 20+ cities.
 
 📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
 
@@ -40,7 +40,7 @@ Apps I built and ship under my own App Store account:
 
 ### 🤝 Work at Tap (10B+ downloads portfolio)
 
-**Tap** is an Israeli studio building **cutting-edge AI-powered consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I deliver cross-platform mobile across several of its apps:
+**Tap** is an **Israeli AI company** building **cutting-edge consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I deliver cross-platform mobile across several of its apps:
 
 - **Walli** & **Luna** — full ownership across **iOS · Android · Backend** (feature delivery, real-time data, subscriptions, release)
 - **Charm** · **PrimeVPN** · **TapPDF** — **iOS** development & maintenance
