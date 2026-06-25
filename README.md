@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![Profile views](https://komarev.com/ghpvc/?username=TerryCK&label=Profile%20views&color=0e75b6&style=flat)
+![Profile views](https://komarev.com/ghpvc/?username=TerryCK&label=Profile%20views&color=0e75b6&style=flat&base=3000)
 [![GitHub followers](https://img.shields.io/github/followers/TerryCK?label=Follow&style=social)](https://github.com/TerryCK)
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=terryck&hide=javascript,html&layout=compact" />
