@@ -9,6 +9,10 @@ I'm **Terry** — a **Senior iOS / full-stack mobile engineer** *and* **proactiv
 
 I build mobile at **Tap**, an **Israeli AI company** shipping **cutting-edge consumer apps** (portfolio over **10 billion downloads**) — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion. My own **published iOS apps** have earned **16,000+ App Store ratings** (up to **5.0★**), used daily across 20+ cities.
 
+### 📈 Growth & Impact
+
+**10B+** downloads (Tap portfolio) &nbsp;·&nbsp; **10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (up to **5.0★**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
+
 📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681 &nbsp;·&nbsp; 📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144 &nbsp;·&nbsp; 📫 **Email:** vul354@gmail.com
