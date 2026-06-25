@@ -13,6 +13,8 @@ I build mobile at **Tap**, an **Israeli AI company** shipping **cutting-edge con
 
 **10B+** downloads (Tap portfolio) &nbsp;·&nbsp; **10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (up to **5.0★**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
 
+📊 Beyond raw scale — drove **double-digit lifts** in trial starts, subscription ARPU, retention & store rating via **A/B experiments** (behavioral-psychology-driven, instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
+
 📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681 &nbsp;·&nbsp; 📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144 &nbsp;·&nbsp; 📫 **Email:** vul354@gmail.com

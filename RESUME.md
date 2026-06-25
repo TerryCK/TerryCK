@@ -38,6 +38,8 @@ Senior mobile engineer with **8+ years** shipping consumer apps end-to-end — a
 
 **10B+** downloads across the Tap portfolio I build for &nbsp;·&nbsp; **10M+** downloads on Walli (Tap's flagship) &nbsp;·&nbsp; **16,000+** App Store ratings on my own apps (up to **5.0★**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
 
+📊 Beyond raw scale — drove **double-digit lifts** in trial starts, subscription ARPU, retention, and App Store rating by running **A/B experiments** (behavioral-psychology-driven, instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
+
 ---
 
 ## Core Skills
