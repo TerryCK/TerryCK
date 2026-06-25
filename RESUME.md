@@ -11,7 +11,7 @@ Claude, MCP, Model Context Protocol, AI Agents, Agentic Coding, AI Character,
 AI Companion, Prompt Engineering, Developer Tooling, AI Automation.
 -->
 
-# Terry Chen (陳冠臻 · Chen Guan-Jhen)
+# Terry Chen (Chen Guan-Jhen)
 
 **Senior iOS / Mobile Engineer** × **AI Agentic Workflow Developer**
 Full-Stack Mobile (iOS · Android · Backend) · LLM agents & multi-model automation
