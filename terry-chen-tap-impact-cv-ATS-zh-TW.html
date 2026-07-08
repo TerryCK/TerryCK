@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <!--
   ATS 最佳化履歷（台灣正體版）— Terry Chen
-  為求 ATS（求職者追蹤系統）順利解析所套用的設計原則：
+  定位：產品工程師／AI 產品打造者／獨立創辦人 —「端到端打造產品」，而非「iOS 專才」。
+  目標公司：AI 優先＋產品導向（OpenAI、Anthropic、Cursor、Perplexity、Lovable、
+  Vercel、Linear、Stripe，以及遠端 AI 新創）。
+
+  ATS 設計原則：
    - 單欄、由上而下線性閱讀順序（不使用 CSS grid／浮動分欄）
-   - 標準章節標題：專業摘要、核心技能、工作經歷、精選成果、學歷
-   - 單一常見無襯線字型、白底黑字、可選取的真實文字（不使用圖片文字、不使用圖示）
-   - 標準項目符號、標準日期格式、聯絡資訊為純文字
-   - 精簡／高資訊密度排版 — 收緊行距與間距以在單頁容納更多內容，
-     同時維持單欄、ATS 友善結構與可選取文字。
-   - 成果優先：每一點先講可量化的結果，心理學框架僅輕描淡寫。
+   - 標準章節標題：專業摘要、核心技能、工作經歷、學歷、獲獎紀錄
+   - 單一常見無襯線字型、白底黑字、可選取的真實文字（不使用圖片文字）
+   - 連結以簡短描述性錨點文字呈現（例如「App Store」「Google Play」）以減少視覺雜訊；
+     完整網址保留於 href。公司／App 名稱維持為純文字關鍵字。
+   - 精簡／高密度；成果優先、先講結果與主導權的條列。
    - 送件請以「列印成 PDF」（Cmd+P）輸出。檔名保持簡潔，例如 Terry-Chen-Resume-zh-TW.pdf
 
   編輯備註：以下百分比為示意用佔位數字，送件前請替換為你在
   Mixpanel／App Store Connect／RevenueCat／Firebase 驗證過的實際數據。
-  公開數據（1,000 萬+ 下載、評分）為真實數字。
+  公開數據（1,000 萬+ 下載、評分）為真實數字。Luna 的數據（+29/+18/+15%）仍為佔位。
 -->
 <html lang="zh-Hant-TW">
 <head>
@@ -32,17 +35,17 @@
   .page{max-width:820px;margin:0 auto;padding:26px 40px}
 
   h1{font-size:19pt;font-weight:bold;letter-spacing:.5px;margin-bottom:2px}
-  .title{font-size:11pt;font-weight:bold;color:#222;margin-bottom:5px}
+  .title{font-size:11pt;font-weight:bold;color:#222;margin-bottom:4px}
+  .tagline{font-size:9.5pt;color:#222;margin-bottom:5px}
   .contact{font-size:9pt;color:#222;margin-bottom:2px}
 
   /* 可點擊連結：藍色 + 底線是通用的「可點擊」提示（螢幕／PDF 版）。
      顏色與底線不影響 ATS 對文字的解析。 */
   a{color:#0b57d0;text-decoration:underline}
 
-  /* 對齊的聯絡連結 — 標籤置於固定寬度左欄，讓網址對齊、方便掃視。 */
-  .links{margin:4px 0 5px}
-  .lrow{font-size:9pt;line-height:1.65}
-  .lkey{display:inline-block;width:64px;color:#333;font-weight:bold}
+  /* 聯絡連結置於同一行（必要時自動換行），維持頁首精簡。 */
+  .links{font-size:9pt;line-height:1.6;margin:4px 0 5px}
+  .lkey{color:#333;font-weight:bold}
 
   h2{
     font-size:10.8pt;font-weight:bold;letter-spacing:.5px;
@@ -82,64 +85,62 @@
 <div class="page">
 
   <h1>Terry Chen</h1>
-  <div class="title">資深 iOS／行動產品與成長工程師</div>
-  <div class="contact">台灣（GMT+8）· 接受遠距與國際團隊 · 中文／英文</div>
-  <div class="links">
-    <div class="lrow"><span class="lkey">Email</span><a href="mailto:vul354@gmail.com">vul354@gmail.com</a></div>
-    <div class="lrow"><span class="lkey">LinkedIn</span><a href="https://www.linkedin.com/in/terry-chen-3350a681">linkedin.com/in/terry-chen-3350a681</a></div>
-    <div class="lrow"><span class="lkey">GitHub</span><a href="https://github.com/TerryCK">github.com/TerryCK</a></div>
-    <div class="lrow"><span class="lkey">App Store</span><a href="https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144">apps.apple.com/tw/developer/chen-guan-jhen/id1168936144</a></div>
-  </div>
+  <div class="title">行動App工程師 &middot; 產品工程師 &middot; AI 產品打造者</div>
+  <div class="tagline">端到端打造並上線消費型與 AI 產品——產品、工程、變現、成長一手包辦。以行動裝置為主，涵蓋完整產品生命週期。</div>
+  <div class="contact">台灣（GMT+8）&middot; 接受遠距與國際團隊 &middot; 中文／英文</div>
+  <div class="links"><a href="mailto:vul354@gmail.com">vul354@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/terry-chen-3350a681">LinkedIn</a> &middot; <a href="https://github.com/TerryCK">GitHub</a> &middot; <a href="https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144">App Store</a></div>
 
   <h2>專業摘要</h2>
-  <p class="summary">具 9 年以上經驗的資深 iOS 工程師，打造多款消費型行動產品。專精成長工程：設計並上線 A/B 實驗，可量化地提升啟用率、留存率、App Store 評分與訂閱營收。負責 Walli（1,000 萬+ 下載，Tap 旗艦 App）與 Charm（AI 修圖與頭像）的開發，端到端掌管轉換與留存介面——引導流程、付費牆、評分提示與再互動——並帶來可量化的成效。精通 Swift、SwiftUI、Combine、StoreKit 2、功能旗標實驗與行動數據分析。</p>
+  <p class="summary">具產品思維的工程師兼獨立創辦人，端到端打造並上線消費型與 AI 產品——掌管產品決策、工程、變現與成長。<span class="metric">10+ 年</span>間累積橫跨 6+ 款上線 App 的經驗，其中 <b>3 款由我獨力創辦並上線</b>，累積 <span class="metric">16,000+ App Store 評分</span>，另有 Walli（<span class="metric">1,000 萬+ 下載</span>）的成長與 AI 工作。我打造 AI 驅動的產品——AI 頭像、AI 桌布生成、多模態 AI 陪伴（語音＋視訊）、以翻譯驅動的多語搜尋——並以多模型 AI Agent 工作流（Claude、Codex、Gemini）壓縮從設計到上線的時間。我追求會複利的成果：LTV、互動與留存，以及使用者會持續使用的產品。</p>
 
   <h2>核心技能</h2>
-  <div class="skills-line"><b>行動開發：</b>Swift、SwiftUI、Combine、UIKit、iOS（9 年以上）、Android、StoreKit 2</div>
-  <div class="skills-line"><b>實驗設計：</b>A/B 測試、功能旗標、Firebase Remote Config、漏斗分析、統計顯著性、假設設計</div>
-  <div class="skills-line"><b>成長與數據分析：</b>Mixpanel、Amplitude、RevenueCat、App Store Connect、付費牆與變現優化、轉換優化、留存</div>
-  <div class="skills-line"><b>交付與工具：</b>CI/CD、Fastlane、TestFlight、Git、App Store 發布管理</div>
-  <div class="skills-line"><b>AI 輔助開發：</b>LLM 工具、AI 輔助開發、快速原型、自動化</div>
+  <div class="skills-line"><b>產品與主導：</b>產品策略、0 到 1 產品開發、路線圖與範圍界定、變現與定價、成長實驗、以數據為本的決策</div>
+  <div class="skills-line"><b>AI 產品打造：</b>LLM 應用整合、RAG 檢索增強搜尋、AI 頭像與陪伴、提示工程、多模型 AI Agent 工作流（Claude、Codex、Gemini）、快速 AI 原型、SEO／ASO</div>
+  <div class="skills-line"><b>技術：</b>Swift、SwiftUI、iOS、Android（Kotlin）、StoreKit 2、REST API 與後端整合、即時資料管線、CI/CD</div>
+  <div class="skills-line"><b>成長與數據：</b>A/B 測試、功能旗標、Mixpanel、Amplitude、RevenueCat、漏斗分析、LTV／互動／留存指標、App Store Connect</div>
 
   <h2>工作經歷</h2>
 
-  <h3>資深 iOS／行動產品與成長工程師 · Tap Israel</h3>
+  <h3>資深產品與成長工程師 - Tap 以色列</h3>
   <div class="meta">台灣（遠距）· 至今</div>
-  <p>以成長為核心的 iOS 工程師，橫跨 Tap 的消費型 App 產品組合。負責轉換與留存介面，並推動持續性的實驗計畫（設計並上線 40+ 項 A/B 實驗），將乾淨的 SwiftUI 實作與數據驅動的假設結合。</p>
-  <p><b>1. Walli - 4K HD 高畫質桌布</b>（旗艦 App，1,000 萬+ 下載，Google Play 4.5 星，獲 Google Pixel 裝置精選）。App Store：<a href="https://apps.apple.com/app/id1061097668">apps.apple.com/app/id1061097668</a> | Google Play：<a href="https://play.google.com/store/apps/details?id=com.shanga.walli">play.google.com/store/apps/details?id=com.shanga.walli</a></p>
+  <p>主導 Tap 消費型 App 產品組合（Walli、Charm、Luna）的轉換、變現與留存。我主導產品方向、密切向 CEO 提案，並以 iOS（SwiftUI）與 Android 實作上線，推動持續性的實驗計畫——已上線 <span class="metric">40+ 項 A/B 實驗</span>——以 LTV、互動與留存衡量。</p>
+  <p><b>1. Walli - 4K AI 高畫質桌布</b>（旗艦，1,000 萬+ 下載，Google Play 4.5 星，Google Pixel 精選）<br><a href="https://apps.apple.com/app/id1061097668">App Store</a> &middot; <a href="https://play.google.com/store/apps/details?id=com.shanga.walli">Google Play</a></p>
   <ul>
-    <li>重建付費牆（高階終身方案錨點、誘餌方案、年繳預設），將試用啟動提升 <span class="metric">+27%</span>；後續定價測試再將訂閱 ARPU 提升 <span class="metric">+19%</span>。</li>
-    <li>重新排序引導流程，讓用戶在任何權限或註冊要求前先套用第一張桌布，使 D7 留存提升 <span class="metric">+12%</span>、引導流失降低 <span class="metric">-18%</span>。</li>
-    <li>將評分提示移至成功時刻之後（並先提供免費價值），使 App Store 評分自 <span class="metric">4.3 提升至 4.6</span>、評分提交率 <span class="metric">翻倍</span>。</li>
-    <li>推出<b>通用智慧搜尋</b>，具在地化介面與即時查詢翻譯，讓用戶以自己的母語搜尋——將桌布探索延伸至非英語使用者，並將搜尋帶動的互動提升 <span class="metric">+21%</span>。</li>
+    <li>主導付費牆：重建付費牆（高階終身方案錨點、誘餌方案、年繳預設），將試用啟動提升 <span class="metric">+27%</span>；後續定價測試再將訂閱 ARPU 提升 <span class="metric">+19%</span></li>
+    <li>重新排序引導流程，讓使用者在任何權限或註冊要求前先取得初次價值（套用一張桌布），使 D7 留存提升 <span class="metric">+12%</span>、引導流失降低 <span class="metric">-18%</span></li>
+    <li>將評分提示移至成功時刻之後，使 App Store 評分自 <span class="metric">4.3 提升至 4.6</span>、評分提交率 <span class="metric">翻倍</span></li>
+    <li>推出<b>通用智慧搜尋</b>，具在地化介面與即時查詢翻譯，讓使用者以母語搜尋——為非英語使用者開啟探索，並將搜尋帶動的互動提升 <span class="metric">+21%</span></li>
+    <li>推出 <b>AI 桌布生成</b>（文字生成圖像）：使用者在 App 內以提示詞生成原創桌布——為千萬下載的消費型 App 帶入生成式 AI</li>
   </ul>
-  <p><b>2. Charm - AI 修圖與頭像</b>（一鍵修圖、AI 頭像、照片增強）。App Store：<a href="https://apps.apple.com/app/id1170801250">apps.apple.com/app/id1170801250</a></p>
+  <p><b>2. Charm - AI 修圖與頭像</b>（一鍵 AI 修圖、AI 頭像、增強）<br><a href="https://apps.apple.com/app/id1170801250">App Store</a></p>
   <ul>
-    <li>在付費牆前先展示用戶生成的（加浮水印）結果，將 AI 頭像「生成到購買」轉換提升 <span class="metric">+34%</span>。</li>
-    <li>在升級提示前，於用戶自己的照片加入前後對比揭曉，將修圖升級轉換提升 <span class="metric">+22%</span>。</li>
-    <li>移除引導流程中取得價值前的阻力，將首次工作階段啟用（完成第一張編輯照片）提升 <span class="metric">+41%</span>。</li>
+    <li>打造並上線 AI 頭像的變現流程：在付費牆前先展示使用者生成的結果，將「生成到購買」轉換提升 <span class="metric">+34%</span></li>
+    <li>以使用者自己的照片、置於升級提示前的前後對比揭曉，將修圖升級轉換提升 <span class="metric">+22%</span></li>
+    <li>移除引導流程中取得價值前的阻力，將首次工作階段啟用（完成第一張編輯照片）提升 <span class="metric">+41%</span></li>
   </ul>
-  <p><b>3. Luna - AI 陪伴</b>（個人化 AI 陪伴，支援文字與語音對話）。App Store：<a href="#add-luna-app-store-link">［請補上 App Store 連結］</a></p>
+  <p><b>3. Luna - AI 陪伴</b>（多模態 LLM 陪伴——文字、語音與視訊對話，並以即時 OCR／視覺從視訊畫面讀取情境）<br><a href="https://apps.apple.com/tw/app/luna-your-ai-companion/id6449453259">App Store</a></p>
   <ul>
-    <li>透過精簡引導流程並將陪伴角色個人化前置，將新用戶啟用（完成第一次有意義的對話）提升 <span class="metric">+29%</span>。</li>
-    <li>透過對準對話里程碑的付費牆與再互動實驗，將訂閱試用轉付費提升 <span class="metric">+18%</span>、30 日留存提升 <span class="metric">+15%</span>。</li>
-    <li>以多語、在地化對話擴大觸及，讓陪伴角色以用戶自己的母語交談。</li>
+    <li>透過精簡引導並將陪伴角色個人化前置，將新使用者啟用（完成第一次有意義的對話）提升 <span class="metric">+29%</span></li>
+    <li>以對準對話里程碑的付費牆與再互動實驗，將訂閱試用轉付費提升 <span class="metric">+18%</span>、30 日留存提升 <span class="metric">+15%</span></li>
+    <li>以多語、在地化對話擴大觸及，讓陪伴角色以使用者自己的母語交談</li>
   </ul>
-  <p><b>4. 跨產品成長與平台工作：</b></p>
+  <p><b>4. 跨產品成長與 AI 加速交付：</b></p>
   <ul>
-    <li>將跨產品整體付費牆轉換提升 <span class="metric">+31%</span> — 定價畫面實驗（<span class="metric">+16%</span>）與再互動通知（<span class="metric">+23%</span> 七日回訪）。</li>
-    <li>以功能旗標（Firebase Remote Config）建立實驗變體，採用用戶層級隨機分派、樣本數檢定力分析、護欄指標與誠實的顯著性檢定，達成即時回滾與可靠判讀。</li>
-    <li>以 SwiftUI 與 Combine 推動現代化 App 架構；掌管從提交到 TestFlight 及商店發布的 CI/CD 自動化。</li>
+    <li>以<b>多模型 AI Agent 工作流</b>（Claude Code、Codex、Gemini）獨力交付上線功能——串接程式生成、程式審查與研究，讓構想到上線 <span class="metric">以天計、而非以週計</span></li>
+    <li>將跨產品整體付費牆轉換提升 <span class="metric">+31%</span> — 定價畫面實驗（<span class="metric">+16%</span>）與再互動通知（<span class="metric">+23%</span> 七日回訪）</li>
+    <li>打造功能旗標（Firebase Remote Config）上的實驗平台：使用者層級隨機分派、檢定力分析、護欄指標與誠實的顯著性檢定，達成即時回滾與可靠判讀</li>
+    <li>端到端掌管交付——現代化 SwiftUI 架構與從提交到 TestFlight 及商店發布的 CI/CD 自動化</li>
   </ul>
 
-  <h3>獨立 iOS 開發者（個人產品）· App Store，Terry Chen</h3>
-  <div class="meta">台灣 · 累計 9 年</div>
+  <h3>獨立創辦人兼獨力開發者 - 個人 App 產品組合</h3>
+  <div class="meta">台灣 · 2016 至今</div>
   <ul>
-    <li>獨力設計、開發並上架 <span class="metric">3 款上線中的消費型 iOS App</span>，累積 <span class="metric">16,000+ App Store 評分</span>（<span class="metric">平均 4.7 星</span>）。</li>
-    <li>專精於位置感知、即時資料型產品，服務全台日常公共需求；掌管完整生命週期：產品、設計、工程、發布與線上維運。</li>
-    <li>垃圾車即時追蹤 - 即時 GPS 追蹤與到站提醒：<span class="metric">4.3 星、8,808 則評分</span>。App Store：<a href="https://apps.apple.com/tw/app/id1527915502">apps.apple.com/app/id1527915502</a></li>
-    <li>Go Battery Station - Gogoro 換電站定位與多站路線規劃：<span class="metric">4.7 星、7,570 則評分</span>。App Store：<a href="https://apps.apple.com/tw/app/id1271037665">apps.apple.com/app/id1271037665</a></li>
-    <li>UBike 路線規劃 - YouBike 共享單車行程規劃：<span class="metric">4.8 星</span>。App Store：<a href="https://apps.apple.com/tw/app/id6587562314">apps.apple.com/app/id6587562314</a></li>
+    <li>經營一人 App 工作室：獨力發想、設計、開發、上線、變現並維運 <span class="metric">3 款上線中的消費型 App</span>——累積 <span class="metric">16,000+ App Store 評分</span>、平均 <span class="metric">4.7 星</span>——無團隊、無外部資金</li>
+    <li>掌管創辦人該掌管的一切：產品與路線圖、UX 與品牌、原生＋後端工程、ASO 與行銷、定價、數據分析與線上維運</li>
+    <li>創辦人打法：鎖定被忽略的利基市場，獨力打造精實、低成本的解決方案，並將其養成有成長空間、能獲利的產品</li>
+    <li><a href="https://apps.apple.com/tw/app/id1527915502">垃圾車即時追蹤</a> - 即時 GPS 追蹤與到站提醒：<span class="metric">4.3 星、8,808 則評分</span></li>
+    <li><a href="https://apps.apple.com/tw/app/id1271037665">Go 電池站</a> - Gogoro 換電站定位與多站路線規劃：<span class="metric">4.7 星、7,570 則評分</span></li>
+    <li><a href="https://apps.apple.com/tw/app/id6587562314">UBike 路線規劃</a> - YouBike 共享單車行程規劃：<span class="metric">4.8 星</span></li>
   </ul>
 
   <h2>學歷</h2>

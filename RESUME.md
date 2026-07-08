@@ -28,7 +28,7 @@ Taiwan 🇹🇼 · Open to remote & international roles · APAC time zone
 
 ## Summary
 
-Senior mobile engineer with **8+ years** shipping consumer apps end-to-end — and a **proactive AI agentic-workflow developer** who builds multi-model automation that ships those apps faster. I work across native **iOS** and **Android**, the **backend** that powers them, and the **AI agent tooling** around the whole pipeline.
+Senior mobile engineer with **10+ years** shipping consumer apps end-to-end — and a **proactive AI agentic-workflow developer** who builds multi-model automation that ships those apps faster. I work across native **iOS** and **Android**, the **backend** that powers them, and the **AI agent tooling** around the whole pipeline.
 
 - At **Tap**, an **Israeli AI company** building **cutting-edge consumer apps** (portfolio over **10 billion downloads**), I own mobile development across **Walli** and **Luna** (iOS, Android, and backend) and ship iOS for **Charm**, **PrimeVPN**, and **TapPDF** — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion product.
 - I build **AI agentic workflows**: multi-model orchestration (Claude / Codex / Gemini), custom agents, skills & slash-commands, and MCP tool integrations that automate build → test → review → release, and I use agentic coding day-to-day to ship real features.
