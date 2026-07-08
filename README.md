@@ -3,8 +3,6 @@
 ![Profile views](https://komarev.com/ghpvc/?username=TerryCK&label=Profile%20views&color=0e75b6&style=flat&base=3000)
 [![GitHub followers](https://img.shields.io/github/followers/TerryCK?label=Follow&style=social)](https://github.com/TerryCK)
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=terryck&hide=javascript,html&layout=compact" />
-
 This is **Terry Chen** — a **mobile app engineer, product engineer, and AI product builder** from Taiwan 🇹🇼. Over **10+ years** I've shipped consumer & AI products end-to-end across **iOS, Android, and backend** — owning product decisions, monetization, and growth — and I ship with **multi-model AI agent workflows** (Claude · Codex · Gemini) that compress design-to-release time.
 
 I build product & growth at **Tap**, an **Israeli AI company**. I own conversion, monetization & retention across **Walli**, **Charm**, and **Luna** — pitching product direction to the CEO and building the AI features: **Walli's AI wallpaper generation**, and **Luna's multimodal companion** (text · voice · video chat, with OCR/vision on a **RAG-powered** harness). As an **indie founder**, my own solo apps have earned **16,000+ App Store ratings** (**4.7★ average**), used daily across 20+ cities.
