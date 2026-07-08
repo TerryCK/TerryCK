@@ -15,7 +15,7 @@ I build mobile at **Tap**, an **Israeli AI company** shipping **cutting-edge con
 
 📊 Beyond raw scale — drove **double-digit lifts** in trial starts, subscription ARPU, retention & store rating via **A/B experiments** (behavioral-psychology-driven, instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
 
-📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🖨️ **ATS résumé (PDF):** [terry-chen-tap-impact-cv-ATS.pdf](./terry-chen-tap-impact-cv-ATS.pdf) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
+📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🖨️ **ATS résumé (PDF):** [English](./Terry-cv-ATS.pdf) &nbsp;·&nbsp; [中文](./Terry-cv-ATS-%E4%B8%AD%E6%96%87.pdf) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681<br>
 📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144<br>
