@@ -5,52 +5,49 @@
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=terryck&hide=javascript,html&layout=compact" />
 
-This is **Terry Chen** — a **Senior iOS / full-stack mobile engineer** *and* **proactive AI agentic-workflow developer** from Taiwan 🇹🇼. I ship consumer apps end-to-end across **iOS, Android, and backend**, and build **multi-model AI agent automation** that ships them faster.
+This is **Terry Chen** — a **mobile app engineer, product engineer, and AI product builder** from Taiwan 🇹🇼. Over **10+ years** I've shipped consumer & AI products end-to-end across **iOS, Android, and backend** — owning product decisions, monetization, and growth — and I ship with **multi-model AI agent workflows** (Claude · Codex · Gemini) that compress design-to-release time.
 
-I build mobile at **Tap**, an **Israeli AI company** shipping **cutting-edge consumer apps** (portfolio over **10 billion downloads**) — including extending the **RAG-powered AI-character harness behind Luna**, an AI companion. My own **published iOS apps** have earned **16,000+ App Store ratings** (up to **5.0★**), used daily across 20+ cities.
+I build product & growth at **Tap**, an **Israeli AI company** whose portfolio has passed **10 billion downloads**. I own conversion, monetization & retention across **Walli**, **Charm**, and **Luna** — pitching product direction to the CEO and building the AI features: **Walli's AI wallpaper generation**, and **Luna's multimodal companion** (text · voice · video chat, with OCR/vision on a **RAG-powered** harness). As an **indie founder**, my own solo apps have earned **16,000+ App Store ratings** (up to **5.0★**), used daily across 20+ cities.
 
 ### 📈 Growth & Impact
 
 **10B+** downloads (Tap portfolio) &nbsp;·&nbsp; **10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (up to **5.0★**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
 
-📊 Beyond raw scale — drove **double-digit lifts** in trial starts, subscription ARPU, retention & store rating via **A/B experiments** (behavioral-psychology-driven, instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
+📊 Beyond raw scale — I optimize for **LTV, engagement & retention**, driving **double-digit lifts** in trial starts, subscription ARPU, retention & store rating via **A/B experiments** (instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
 
-📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🖨️ **ATS résumé (PDF):** [English](./Terry-cv-ATS.pdf) &nbsp;·&nbsp; [中文](./Terry-cv-ATS-%E4%B8%AD%E6%96%87.pdf) &nbsp;·&nbsp; 🟢 **Open to Senior iOS / mobile roles** (remote · international · Taiwan/APAC)
+📄 **Full CV:** [RESUME.md](./RESUME.md) &nbsp;·&nbsp; 🖨️ **ATS résumé (PDF):** [English](./Terry-cv-ATS.pdf) &nbsp;·&nbsp; [中文](./Terry-cv-ATS-%E4%B8%AD%E6%96%87.pdf) &nbsp;·&nbsp; 🟢 **Open to Product / AI-builder / Mobile roles** (remote · international · Taiwan/APAC)
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/terry-chen-3350a681<br>
-📱 **App Store:** https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144<br>
-📫 **Email:** vul354@gmail.com
+🔗 **[LinkedIn](https://www.linkedin.com/in/terry-chen-3350a681)** &nbsp;·&nbsp; 📱 **[App Store](https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144)** &nbsp;·&nbsp; 📫 **[vul354@gmail.com](mailto:vul354@gmail.com)**
 
 ---
 
 ### What I do
 
+- **Product & ownership** — product direction, monetization & pricing, growth experimentation, 0-to-1 solo shipping; I pitch product direction to the CEO and measure on **LTV, engagement & retention**
+- **AI & agentic workflows** — LLM app integration, multi-model orchestration (Claude / Codex / Gemini), RAG (Retrieval-Augmented Generation), AI avatars & multimodal companions, MCP tool integration, agentic coding
 - **Native iOS** — Swift, SwiftUI, UIKit, Combine; Live Activities & Dynamic Island, WidgetKit, MapKit, StoreKit (IAP / subscriptions)
-- **Android** — native development for cross-platform consumer apps
+- **Android** — Kotlin, native development for cross-platform consumer apps
 - **Backend** — Firebase, REST APIs, real-time data pipelines, cloud sync
-- **AI & Agentic Workflows** — LLM agents, multi-model orchestration (Claude / Codex / Gemini), RAG (Retrieval-Augmented Generation), custom agents & skills, MCP tool integration, agentic coding, AI-character / companion product work
-- **Product** — real-time GPS & geolocation, push/local notifications, offline-first UX, App Store launch & growth
 
 ---
 
 ### 📱 Published Apps
 
-Apps I built and ship under my own App Store account:
+Apps I founded and ship solo under my own App Store account:
 
 | App | What it does | Rating | Ratings | Since |
 |---|---|---|---|---|
 | 🗑️ **[Garbage Truck Tracker](https://apps.apple.com/tw/app/id1527915502)** | Real-time GPS tracking of municipal trucks across 20+ Taiwanese cities — Live Activities, Dynamic Island, home-screen widgets, smart arrival alerts | ⭐ 4.3 | **8,800+** | 2020 |
 | 🔋 **[Go Battery](https://apps.apple.com/tw/app/id1271037665)** | Trip planner that chains EV battery-swap stations so riders never run out of charge on long routes | ⭐ 4.7 | **7,500+** | 2017 |
 | 🚲 **[UBike eBike Planner](https://apps.apple.com/tw/app/id6587562314)** | Shared e-bike journey planning with live rental status and Live Activities | ⭐ 4.8 | 30+ | 2024 |
-| 🎬 **[2Live – Live Wallpaper Creator](https://apps.apple.com/tw/app/id6749788676)** | Turns any video into a live wallpaper; includes a swipe-to-browse wallpaper gallery with one-tap like & download | ⭐ 5.0 | New | 2025 |
 
 ---
 
 ### 🤝 Work at Tap (10B+ downloads portfolio)
 
-**Tap** is an **Israeli AI company** building **cutting-edge consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I deliver cross-platform mobile across several of its apps:
+**Tap** is an **Israeli AI company** building **cutting-edge consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I own product, growth & cross-platform delivery across several of its apps:
 
-- **Walli** & **Luna** — full ownership across **iOS · Android · Backend** (feature delivery, real-time data, subscriptions, release)
+- **Walli** & **Luna** — own product direction across **iOS · Android · Backend** (conversion, monetization, retention, real-time data, subscriptions, release); shipped AI features incl. Walli's AI wallpaper generation and Luna's multimodal companion
 - **Charm** · **PrimeVPN** · **TapPDF** — **iOS** development & maintenance
 - Worldwide audience: discovery feeds, in-app rating & download flows, push notifications, StoreKit subscriptions
 
