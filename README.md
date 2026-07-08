@@ -7,11 +7,11 @@
 
 This is **Terry Chen** — a **mobile app engineer, product engineer, and AI product builder** from Taiwan 🇹🇼. Over **10+ years** I've shipped consumer & AI products end-to-end across **iOS, Android, and backend** — owning product decisions, monetization, and growth — and I ship with **multi-model AI agent workflows** (Claude · Codex · Gemini) that compress design-to-release time.
 
-I build product & growth at **Tap**, an **Israeli AI company** whose portfolio has passed **10 billion downloads**. I own conversion, monetization & retention across **Walli**, **Charm**, and **Luna** — pitching product direction to the CEO and building the AI features: **Walli's AI wallpaper generation**, and **Luna's multimodal companion** (text · voice · video chat, with OCR/vision on a **RAG-powered** harness). As an **indie founder**, my own solo apps have earned **16,000+ App Store ratings** (**4.7★ average**), used daily across 20+ cities.
+I build product & growth at **Tap**, an **Israeli AI company**. I own conversion, monetization & retention across **Walli**, **Charm**, and **Luna** — pitching product direction to the CEO and building the AI features: **Walli's AI wallpaper generation**, and **Luna's multimodal companion** (text · voice · video chat, with OCR/vision on a **RAG-powered** harness). As an **indie founder**, my own solo apps have earned **16,000+ App Store ratings** (**4.7★ average**), used daily across 20+ cities.
 
 ### 📈 Growth & Impact
 
-**10B+** downloads (Tap portfolio) &nbsp;·&nbsp; **10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (**4.7★ average**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
+**10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (**4.7★ average**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
 
 📊 Beyond raw scale — I optimize for **LTV, engagement & retention**, driving **double-digit lifts** in trial starts, subscription ARPU, retention & store rating via **A/B experiments** (instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
 
@@ -43,7 +43,7 @@ Apps I founded and ship solo under my own App Store account:
 
 ---
 
-### 🤝 Work at Tap (10B+ downloads portfolio)
+### 🤝 Work at Tap
 
 **Tap** is an **Israeli AI company** building **cutting-edge consumer apps**, with a global portfolio that has surpassed **10 billion downloads**. I own product, growth & cross-platform delivery across several of its apps:
 
