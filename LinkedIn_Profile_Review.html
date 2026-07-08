@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terry Chen — LinkedIn Profile Update</title>
+<style>
+  :root{
+    --bg:#f3f2ef; --card:#fff; --ink:#1d2226; --muted:#56687a;
+    --line:#e3e3e1; --brand:#0a66c2; --brand-d:#004182;
+    --ok:#057642; --okbg:#e7f3ec; --warn:#915907; --warnbg:#fdf3e3;
+    --crit:#b24020; --critbg:#fbeae5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;font-size:15px;}
+  .wrap{max-width:880px;margin:0 auto;padding:24px 16px 80px}
+  header.top{background:linear-gradient(120deg,var(--brand),var(--brand-d));
+    color:#fff;border-radius:14px;padding:28px 26px;margin-bottom:22px}
+  header.top h1{margin:0 0 6px;font-size:25px}
+  header.top p{margin:0;opacity:.92;font-size:14px}
+  .pos{display:inline-block;margin-top:12px;background:rgba(255,255,255,.16);
+    border:1px solid rgba(255,255,255,.3);padding:5px 12px;border-radius:20px;font-size:12.5px}
+  .toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+  .toc a{background:#fff;border:1px solid var(--line);color:var(--brand);
+    text-decoration:none;padding:6px 12px;border-radius:20px;font-size:13px;font-weight:600}
+  .toc a:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:22px 22px 8px;margin-bottom:20px}
+  h2{font-size:19px;margin:0 0 4px;display:flex;align-items:center;gap:9px}
+  h2 .n{background:var(--brand);color:#fff;width:26px;height:26px;border-radius:50%;
+    display:inline-flex;align-items:center;justify-content:center;font-size:13px;flex:none}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+  .block{border:1px solid var(--line);border-radius:10px;padding:14px 14px 12px;
+    margin-bottom:14px;position:relative;background:#fcfcfc}
+  .block.rec{border-color:#bcdcff;background:#f3f9ff}
+  .label{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:7px;display:flex;justify-content:space-between;align-items:center}
+  .chars{font-weight:600;color:var(--muted)}
+  .chars.bad{color:var(--crit)}
+  .txt{white-space:pre-wrap;font-size:14.5px;color:var(--ink)}
+  .copy{position:absolute;top:11px;right:11px;background:var(--brand);color:#fff;
+    border:none;border-radius:18px;padding:6px 14px;font-size:12.5px;font-weight:600;
+    cursor:pointer;transition:.15s}
+  .copy:hover{background:var(--brand-d)}
+  .copy.done{background:var(--ok)}
+  .blockhead{padding-right:84px}
+  .recpill{display:inline-block;background:#0a66c2;color:#fff;font-size:10.5px;
+    font-weight:700;padding:2px 8px;border-radius:12px;margin-left:8px;vertical-align:middle}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:4px 0 14px}
+  th,td{text-align:left;padding:8px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.03em}
+  .tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:11px;white-space:nowrap}
+  .t-ok{background:var(--okbg);color:var(--ok)}
+  .t-warn{background:var(--warnbg);color:var(--warn)}
+  .t-crit{background:var(--critbg);color:var(--crit)}
+  .flag{border-left:4px solid var(--crit);background:var(--critbg);border-radius:0 8px 8px 0;
+    padding:11px 14px;margin-bottom:11px}
+  .flag b{color:var(--crit)}
+  .fix{display:block;margin-top:4px;color:var(--ink);font-size:13.5px}
+  .verdict{background:var(--okbg);border:1px solid #bfe3cd;border-radius:10px;
+    padding:13px 15px;margin-bottom:14px;font-size:14px}
+  ul.feat{list-style:none;padding:0;margin:0}
+  .note{font-size:13px;color:var(--muted);margin:2px 0 14px}
+  .check{list-style:none;padding:0;margin:0 0 8px}
+  .check li{padding:7px 0;border-bottom:1px solid var(--line);font-size:13.5px;display:flex;gap:9px}
+  .check li:before{content:"☐";color:var(--brand);font-size:16px}
+  footer{text-align:center;color:var(--muted);font-size:12.5px;margin-top:30px}
+  .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);
+    background:var(--ink);color:#fff;padding:11px 20px;border-radius:24px;font-size:13.5px;
+    font-weight:600;opacity:0;transition:.25s;z-index:50}
+  .toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+  @media(max-width:560px){.copy{position:static;display:block;margin-top:10px}.blockhead{padding-right:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>LinkedIn Profile Update — Terry Chen</h1>
+    <p>Review each section, hit <b>Copy</b>, paste into LinkedIn. Character limits are checked live.</p>
+    <span class="pos">Positioning: Senior Mobile Engineer × AI Agentic-Workflow Developer · targeting startups · AI-native · remote consumer apps</span>
+  </header>
+
+  <nav class="toc">
+    <a href="#h">1 · Headlines</a>
+    <a href="#about">2 · About</a>
+    <a href="#exp">3 · Experience</a>
+    <a href="#kw">4 · Keywords</a>
+    <a href="#audit">5 · Recruiter Audit</a>
+    <a href="#feat">6 · Featured</a>
+    <a href="#dm">7 · Cold DMs</a>
+    <a href="#chk">✔ Checklist</a>
+  </nav>
+
+  <!-- 1 HEADLINES -->
+  <section id="h">
+    <h2><span class="n">1</span> Headline — 10 variations</h2>
+    <p class="sub">LinkedIn limit: 220 characters. Pick one. #2 and #1 recommended.</p>
+
+    <div class="block rec"><div class="blockhead"><div class="label"><span>#1 · Hybrid edge <span class="recpill">RECOMMENDED</span></span><span class="chars" data-limit="220"></span></div><div class="txt">Senior iOS/Mobile Engineer who builds the AI agents that ship apps faster | @ Tap (10B+ downloads) | Swift · SwiftUI · Kotlin · LLM agents · MCP</div></div></div>
+
+    <div class="block rec"><div class="blockhead"><div class="label"><span>#2 · Story + proof <span class="recpill">RECOMMENDED</span></span><span class="chars" data-limit="220"></span></div><div class="txt">I ship consumer apps end-to-end AND build the AI agent workflows behind them | Senior Mobile Engineer @ Tap (10B+ downloads) | iOS · Android · Backend</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#3 · Hybrid + numbers</span><span class="chars" data-limit="220"></span></div><div class="txt">Mobile engineer × AI agentic-workflow builder | 16K+ App Store ratings on my own apps | Multi-model orchestration (Claude/Codex/Gemini) · MCP · Swift</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#4 · Proof-led</span><span class="chars" data-limit="220"></span></div><div class="txt">Senior iOS Engineer | 16,000+ App Store ratings on apps I built solo · 20+ cities daily | now shipping at Tap (10B+ downloads) + building AI agents</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#5 · Experience-led</span><span class="chars" data-limit="220"></span></div><div class="txt">8+ yrs shipping iOS to millions | 16K+ ratings on my own apps (up to 5.0★) | Senior Mobile Engineer @ Tap (10B+ downloads) | AI agentic workflows</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#6 · Punchy</span><span class="chars" data-limit="220"></span></div><div class="txt">Built 4 iOS apps to 16K+ ratings solo. Now I do it at 10B-download scale @ Tap — and automate the pipeline with AI agents | Swift · SwiftUI · MCP</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#7 · Recruiter-friendly</span><span class="chars" data-limit="220"></span></div><div class="txt">Senior iOS / Full-Stack Mobile Engineer (iOS · Android · Backend) | AI agentic workflows & LLM tooling | @ Tap, 10B+ downloads | open to remote roles</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#8 · Role-led</span><span class="chars" data-limit="220"></span></div><div class="txt">Senior Mobile Engineer for AI-native & consumer products | Ships iOS/Android/backend end-to-end + builds AI agent automation | Remote · APAC</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#9 · AI-forward</span><span class="chars" data-limit="220"></span></div><div class="txt">AI × Mobile Engineer | I build multi-model agent workflows (Claude/Codex/Gemini, MCP) and ship them inside real iOS/Android apps @ Tap (10B+ downloads)</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>#10 · Applied-AI</span><span class="chars" data-limit="220"></span></div><div class="txt">Applied-AI Mobile Engineer | LLM agents, MCP tool integration & agentic coding → shipped in consumer apps | 16K+ App Store ratings | Swift · Kotlin</div></div></div>
+  </section>
+
+  <!-- 2 ABOUT -->
+  <section id="about">
+    <h2><span class="n">2</span> About (PAS framework)</h2>
+    <p class="sub">LinkedIn limit: 2,600 characters. First two lines show before the fold.</p>
+    <div class="block rec"><div class="blockhead"><div class="label"><span>About — paste as-is</span><span class="chars" data-limit="2600"></span></div><div class="txt">Most teams can find an iOS engineer. Almost none can find one who also builds the AI agent systems that ship the app twice as fast. That's the gap I fill.
+
+The problem I keep seeing: AI-native and consumer-app teams are racing to ship, but mobile talent and applied-AI talent usually live in two different people — so handoffs stall and "AI features" never make it past the demo.
+
+I've spent 8+ years closing that gap. At Tap, an Israeli studio whose apps have passed 10 billion downloads, I own cross-platform development (iOS, Android, backend) for Walli and Luna and ship iOS for Charm, PrimeVPN, and TapPDF — including extending the AI-character harness behind Luna, an AI companion product. On my own App Store account, four apps have earned 16,000+ ratings (up to 5.0★), used daily across 20+ cities.
+
+What makes me different: I build multi-model AI agent workflows (Claude / Codex / Gemini, custom agents & skills, MCP tool integration) that automate build → test → review → release — so I ship more, faster, across a multi-app studio.
+
+Tech I work with: Swift, SwiftUI, UIKit, Combine, StoreKit · Kotlin / Android · Firebase, REST, real-time data · MapKit, WidgetKit, Live Activities & Dynamic Island · LLM agents, MCP, prompt engineering.
+
+If you're building consumer or AI products and want an engineer who ships end-to-end and brings AI leverage with him — let's talk. The fastest way to reach me: email below with the role, company, and whether it's remote.
+
+📱 Portfolio: https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144
+📫 vul354@gmail.com</div></div></div>
+  </section>
+
+  <!-- 3 EXPERIENCE -->
+  <section id="exp">
+    <h2><span class="n">3</span> Experience (XYZ formula)</h2>
+    <p class="sub">Each role's description is one copy block. Replace any [bracketed] placeholder with a real number before publishing.</p>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>Tap — Senior Mobile Engineer (iOS · Android · Backend)</span><span class="chars" data-limit="2000"></span></div><div class="txt">Cross-platform engineer in a studio whose apps have surpassed 10 billion downloads.
+
+• Own end-to-end iOS, Android, and backend development for Walli and Luna, shipping features, real-time data, and StoreKit subscriptions to a worldwide audience across a portfolio of 10B+ downloads.
+• Extended the AI-character harness powering Luna (an AI companion), improving the conversational experience and bridging mobile delivery with applied LLM engineering.
+• Cut delivery time across a multi-app studio by building AI agentic workflows — multi-model orchestration (Claude/Codex/Gemini) and MCP-integrated automation across build → test → review → release. [add %/time saved if known]
+• Shipped and maintained iOS for three additional consumer apps (Charm, PrimeVPN, TapPDF), delivering discovery feeds, in-app rating/download flows, push notifications, and subscription paywalls.
+• Raised release reliability by standardizing CI/CD and review automation across [N] apps, reducing manual release steps [add metric].</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>Independent iOS Developer · 2017–Present</span><span class="chars" data-limit="2000"></span></div><div class="txt">Built, shipped, and grew four iOS apps solo under my own App Store account.
+
+• Grew a portfolio of four self-published iOS apps to 16,000+ App Store ratings (averages up to 5.0★) by owning the full lifecycle — architecture, native UI, backend, release, and ASO.
+• Built a real-time municipal garbage-truck tracker to 8,800+ ratings (⭐4.3) by engineering live GPS pipelines with Live Activities, Dynamic Island, and home-screen widgets — now used daily across 20+ Taiwan cities.
+• Reached 7,500+ ratings (⭐4.7) on an EV battery-swap route planner by chaining swap stations into long-route trip plans, live and growing since 2017.
+• Launched a video-to-live-wallpaper app to a 5.0★ rating by building a swipe-to-browse gallery with one-tap like & download.
+• Drove organic installs across 20+ cities by adopting platform-leading features early (WidgetKit, Live Activities, MapKit, StoreKit) and iterating on ASO.</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>AI & Agentic Workflow Development · ongoing</span><span class="chars" data-limit="2000"></span></div><div class="txt">Build agentic AI systems that compound engineering output.
+
+• Multiplied personal engineering throughput by building multi-model orchestration that routes work across Claude, Codex, and Gemini with role discipline and parallel dispatch (explore, review, refactor, test).
+• Automated the full dev loop (build → test → review → release) by authoring custom agents, skills, and slash-commands, reducing repetitive manual work.
+• Integrated external tooling (Firebase, issue trackers, CI) into agent workflows via MCP (Model Context Protocol) servers, enabling agents to act on real systems.</div></div></div>
+  </section>
+
+  <!-- 4 KEYWORDS -->
+  <section id="kw">
+    <h2><span class="n">4</span> SEO Keywords — top 25</h2>
+    <p class="sub">Seed each priority term in ≥2 of: Headline, About, Job titles, Skills. Gaps flagged below.</p>
+    <table>
+      <tr><th>#</th><th>Keyword</th><th>Priority</th><th>Status</th><th>Where to add</th></tr>
+      <tr><td>1</td><td>iOS Engineer / Developer</td><td>Critical</td><td><span class="tag t-ok">have</span></td><td>Headline + a job title</td></tr>
+      <tr><td>2</td><td>Swift</td><td>Critical</td><td><span class="tag t-ok">have</span></td><td>Pin in Skills, About</td></tr>
+      <tr><td>3</td><td>SwiftUI</td><td>Critical</td><td><span class="tag t-ok">have</span></td><td>Skills, About, exp</td></tr>
+      <tr><td>4</td><td>Mobile Engineer</td><td>Critical</td><td><span class="tag t-ok">have</span></td><td>Tap title, headline</td></tr>
+      <tr><td>5</td><td>Senior (Mobile) Engineer</td><td>Critical</td><td><span class="tag t-warn">weak</span></td><td>Add "Senior" to Tap title</td></tr>
+      <tr><td>6</td><td>AI Engineer</td><td>High</td><td><span class="tag t-warn">weak</span></td><td>Headline + Skills + About</td></tr>
+      <tr><td>7</td><td>LLM / Large Language Models</td><td>High</td><td><span class="tag t-ok">have</span></td><td>Add to Skills</td></tr>
+      <tr><td>8</td><td>AI Agents / Agentic AI</td><td>High</td><td><span class="tag t-ok">have</span></td><td>Skills + headline</td></tr>
+      <tr><td>9</td><td>Machine Learning</td><td>High</td><td><span class="tag t-crit">missing</span></td><td>Skills + 1 About line</td></tr>
+      <tr><td>10</td><td>Kotlin</td><td>High</td><td><span class="tag t-ok">have</span></td><td>Skills, Android bullet</td></tr>
+      <tr><td>11</td><td>Android Developer</td><td>High</td><td><span class="tag t-ok">have</span></td><td>Tap title, Skills</td></tr>
+      <tr><td>12</td><td>Cross-platform / React Native</td><td>Medium</td><td><span class="tag t-warn">weak</span></td><td>Add to title/About</td></tr>
+      <tr><td>13</td><td>Full-Stack</td><td>High</td><td><span class="tag t-warn">weak</span></td><td>Headline variant + About</td></tr>
+      <tr><td>14</td><td>Backend Engineer</td><td>Medium</td><td><span class="tag t-ok">have</span></td><td>Job title</td></tr>
+      <tr><td>15</td><td>Firebase</td><td>Medium</td><td><span class="tag t-ok">have</span></td><td>Skills</td></tr>
+      <tr><td>16</td><td>REST API</td><td>Medium</td><td><span class="tag t-ok">have</span></td><td>Skills</td></tr>
+      <tr><td>17</td><td>StoreKit / IAP / Subscriptions</td><td>Medium</td><td><span class="tag t-ok">have</span></td><td>Skills + exp</td></tr>
+      <tr><td>18</td><td>Prompt Engineering</td><td>High</td><td><span class="tag t-ok">have</span></td><td>Add to Skills</td></tr>
+      <tr><td>19</td><td>MCP / Model Context Protocol</td><td>Med (rising)</td><td><span class="tag t-ok">have</span></td><td>Skills + About</td></tr>
+      <tr><td>20</td><td>RAG</td><td>Medium</td><td><span class="tag t-crit">missing</span></td><td>Add only if true</td></tr>
+      <tr><td>21</td><td>Python</td><td>Medium</td><td><span class="tag t-crit">missing</span></td><td>Skills if accurate</td></tr>
+      <tr><td>22</td><td>CI/CD</td><td>Medium</td><td><span class="tag t-warn">weak</span></td><td>Add to Skills</td></tr>
+      <tr><td>23</td><td>ASO</td><td>Low-Med</td><td><span class="tag t-ok">have</span></td><td>Skills</td></tr>
+      <tr><td>24</td><td>Remote</td><td>Filter</td><td><span class="tag t-ok">have</span></td><td>Headline + "Open to"</td></tr>
+      <tr><td>25</td><td>Consumer Apps / Products</td><td>Medium</td><td><span class="tag t-warn">weak</span></td><td>About + headline</td></tr>
+    </table>
+    <p class="note"><b>Highest ROI:</b> add "Senior" to Tap title · add Machine Learning + AI Engineer to Skills · pin Swift · SwiftUI · AI Agents · add RAG/Python only if accurate.</p>
+  </section>
+
+  <!-- 5 AUDIT -->
+  <section id="audit">
+    <h2><span class="n">5</span> Recruiter Audit</h2>
+    <p class="sub">Roleplay: senior recruiter at a remote-first AI/consumer startup, reading cold.</p>
+    <div class="verdict"><b>Would I reach out? Yes — conditionally.</b> The mobile + AI-agent combo is genuinely rare and 16K+ ratings on solo apps is verifiable proof. You'd clear my screen. But these would make me hesitate, and at FAANG-tier or top AI labs they could be dealbreakers.</div>
+
+    <div class="flag"><b>1. "Tap" is unverifiable as written.</b> I can't confirm your individual contribution to "10B downloads," or even pin down which company Tap is. Big borrowed numbers read as borrowed credibility.<span class="fix">→ Add a company link/logo, confirm exact title & start year (kill the [placeholder]s), frame metrics as what you shipped.</span></div>
+    <div class="flag"><b>2. Seniority is asserted, not evidenced.</b> "Senior" but the profile shows feature work, not scope — mentoring, owning architecture, cross-team influence.<span class="fix">→ Add 1–2 bullets showing leadership/ownership scope.</span></div>
+    <div class="flag"><b>3. AI work reads as self-directed, not production-proven.</b> Did the agent work ship to users or just speed up your coding? AI-native teams want AI in the product.<span class="fix">→ Sharpen the Luna AI-character bullet (your best "AI shipped to users" proof).</span></div>
+    <div class="flag"><b>4. No metrics on AI/efficiency claims.</b> "Ships faster" with no number gets discounted.<span class="fix">→ Add rough figures: "cut release time ~30%," "N apps maintained solo."</span></div>
+    <div class="flag"><b>5. Timezone/authorization friction unaddressed.</b> Taiwan/APAC + remote is fine for some, a blocker for others; silence makes US/EU recruiters skip.<span class="fix">→ One line: "open to remote; comfortable with X hours overlap."</span></div>
+    <p class="note"><b>Net:</b> Strong, differentiated, top-quartile for a mobile+AI hybrid — once Tap is verified and senior/impact claims carry numbers. Today it reads "very promising, needs proof."</p>
+  </section>
+
+  <!-- 6 FEATURED -->
+  <section id="feat">
+    <h2><span class="n">6</span> Featured — 5 items to pin</h2>
+    <p class="sub">Visual social proof above the fold. Each block is copy-ready (title + description).</p>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>1 · App Store developer page (strongest)</span></div><div class="txt">My iOS apps — 16,000+ ratings across 20+ cities
+
+Four consumer apps I designed, built, and ship solo. Live GPS, Live Activities, WidgetKit, StoreKit.
+https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>2 · Flagship app — Garbage Truck Tracker</span></div><div class="txt">Real-time city tracker — 8,800+ ratings, 20+ cities
+
+Live GPS pipelines, Live Activities & Dynamic Island, smart arrival alerts.
+[link to its App Store page]</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>3 · GitHub</span></div><div class="txt">Code & AI agent tooling — GitHub
+
+Mobile projects + multi-model agent workflows (Claude/Codex/Gemini, MCP).
+https://github.com/terryck</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>4 · AI workflow write-up (create one)</span></div><div class="txt">How I use multi-model AI agents to ship mobile apps faster
+
+Orchestrating Claude/Codex/Gemini with MCP across build → test → review → release.
+[link to LinkedIn article or doc]</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>5 · Product demo (video/GIF)</span></div><div class="txt">AI companion / live-wallpaper — product demo
+
+The AI-character experience and UI work I ship.
+[link to App Store, video, or post]</div></div></div>
+    <p class="note"><b>If you only do two:</b> #1 (App Store page) + #4 (AI workflow write-up) — they cover both halves of your positioning.</p>
+  </section>
+
+  <!-- 7 DMs -->
+  <section id="dm">
+    <h2><span class="n">7</span> Cold DM templates</h2>
+    <p class="sub">Each under ~75 words. Personalize [brackets] before sending. Tue–Thu mornings, one follow-up max.</p>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>A · Warm / specific (saw a role or post)</span></div><div class="txt">Hi [Name] — saw [Company] is hiring for [role / saw your post on mobile+AI]. Quick reason I'm reaching out: I'm a senior mobile engineer who also builds the AI agent workflows that ship apps faster — currently doing both at Tap (10B+ download portfolio), with 16K+ App Store ratings on apps I built solo. Seems like a strong fit for what you're building. Open to a 15-min chat this week?</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>B · Value-first (no specific role yet)</span></div><div class="txt">Hi [Name] — I build consumer apps end-to-end (iOS/Android/backend) and the multi-model AI agent automation behind them. Most teams hire two people for that; I'm one. 16K+ ratings on my own apps, now shipping at 10B-download scale. If [Company] is thinking about AI in your mobile products, I'd love to be on your radar — worth a quick call?</div></div></div>
+
+    <div class="block"><div class="blockhead"><div class="label"><span>C · Ultra-short (busy recruiter / InMail reply)</span></div><div class="txt">Hi [Name] — senior iOS/mobile engineer + AI-agent builder (rare combo). 16K+ App Store ratings solo; now at Tap (10B+ downloads). Targeting remote AI/consumer roles. Is [role/team] still open? Happy to send specifics.</div></div></div>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section id="chk">
+    <h2><span class="n">✔</span> Pre-publish checklist</h2>
+    <ul class="check">
+      <li>Replace [start year] and any [N]/[%] placeholders with real numbers — never publish brackets.</li>
+      <li>Add "Senior" to your Tap job title.</li>
+      <li>Add a verifiable Tap company link/logo.</li>
+      <li>Pin Skills: Swift · SwiftUI · AI Agents; add Machine Learning, AI Engineer, Prompt Engineering, MCP.</li>
+      <li>Add Python / RAG to Skills only if accurate.</li>
+      <li>Add one line on remote availability + timezone overlap.</li>
+    </ul>
+  </section>
+
+  <footer>Generated for Terry Chen · review &amp; copy into LinkedIn · all content drawn from your resume &amp; portfolio</footer>
+</div>
+
+<div class="toast" id="toast">Copied!</div>
+
+<script>
+// live character counters
+document.querySelectorAll('.chars[data-limit]').forEach(function(el){
+  var block=el.closest('.block');
+  var txt=block.querySelector('.txt').innerText.trim();
+  var lim=parseInt(el.dataset.limit,10);
+  var n=txt.length;
+  el.textContent=n+' / '+lim;
+  if(n>lim) el.classList.add('bad');
+});
+
+// add copy buttons to every block
+var toast=document.getElementById('toast');
+function showToast(msg){toast.textContent=msg;toast.classList.add('show');
+  clearTimeout(toast._t);toast._t=setTimeout(function(){toast.classList.remove('show')},1400);}
+
+document.querySelectorAll('.block').forEach(function(block){
+  var txtEl=block.querySelector('.txt');
+  if(!txtEl) return;
+  var btn=document.createElement('button');
+  btn.className='copy';btn.textContent='Copy';
+  btn.addEventListener('click',function(){
+    var text=txtEl.innerText.trim();
+    navigator.clipboard.writeText(text).then(function(){
+      btn.textContent='✓ Copied';btn.classList.add('done');showToast('Copied to clipboard');
+      setTimeout(function(){btn.textContent='Copy';btn.classList.remove('done')},1600);
+    }).catch(function(){
+      // fallback
+      var ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);
+      ta.select();document.execCommand('copy');document.body.removeChild(ta);
+      btn.textContent='✓ Copied';btn.classList.add('done');showToast('Copied');
+      setTimeout(function(){btn.textContent='Copy';btn.classList.remove('done')},1600);
+    });
+  });
+  block.appendChild(btn);
+});
+</script>
+</body>
+</html>

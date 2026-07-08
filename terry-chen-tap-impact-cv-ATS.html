@@ -6,6 +6,9 @@
    - Standard section headings: Summary, Skills, Experience, Selected Achievements, Education
    - One common sans-serif font, black text on white, real selectable text (no text-in-images, no icons)
    - Standard bullet points, standard date formats, contact info as plain text
+   - Compact / high-information-density layout — tight leading and spacing to fit more per page
+     while keeping single-column ATS-safe structure and selectable text.
+   - Result-first bullets: lead with the measured outcome; keep psychology framing light.
    - Print to PDF (Cmd+P) for submission. Keep file name simple, e.g. Terry-Chen-Resume.pdf
 
   EDITOR NOTE: percentages below are illustrative placeholders. Replace with your verified
@@ -23,28 +26,35 @@
     font-family:Arial, Helvetica, "Helvetica Neue", sans-serif;
     color:#000;
     background:#fff;
-    line-height:1.42;
-    font-size:11pt;
+    line-height:1.3;
+    font-size:10.2pt;
   }
-  .page{max-width:820px;margin:0 auto;padding:40px 48px}
+  .page{max-width:820px;margin:0 auto;padding:26px 40px}
 
-  h1{font-size:22pt;font-weight:bold;letter-spacing:.2px;margin-bottom:4px}
-  .title{font-size:12pt;font-weight:bold;color:#222;margin-bottom:8px}
-  .contact{font-size:10pt;color:#222;margin-bottom:4px}
-  .contact a{color:#000;text-decoration:none}
+  h1{font-size:19pt;font-weight:bold;letter-spacing:.2px;margin-bottom:2px}
+  .title{font-size:11pt;font-weight:bold;color:#222;margin-bottom:5px}
+  .contact{font-size:9pt;color:#222;margin-bottom:2px}
+
+  /* Clickable links: blue + underline is the universal "tappable" signal for the
+     on-screen / PDF version. Color and underline do not affect ATS text parsing. */
+  a{color:#0b57d0;text-decoration:underline}
+
+  /* Aligned contact links — labels form a fixed left column so the URLs line up for scanning. */
+  .links{margin:4px 0 5px}
+  .lrow{font-size:9pt;line-height:1.65}
+  .lkey{display:inline-block;width:64px;color:#333;font-weight:bold}
 
   h2{
-    font-size:12pt;font-weight:bold;text-transform:uppercase;letter-spacing:.6px;
-    border-bottom:1.5px solid #000;padding-bottom:3px;margin:20px 0 10px;
+    font-size:10.8pt;font-weight:bold;text-transform:uppercase;letter-spacing:.5px;
+    border-bottom:1.5px solid #000;padding-bottom:2px;margin:12px 0 6px;
   }
-  h3{font-size:11pt;font-weight:bold;margin-top:12px}
-  .meta{font-size:10pt;color:#333;margin-bottom:5px;font-style:italic}
-  p{margin-bottom:8px}
-  ul{margin:0 0 8px 0;padding-left:20px}
-  li{margin-bottom:5px}
-  .skills-line{margin-bottom:6px}
-  .skills-line b{display:inline-block;min-width:0}
-  .summary{margin-bottom:6px}
+  h3{font-size:10.4pt;font-weight:bold;margin-top:8px}
+  .meta{font-size:9pt;color:#333;margin-bottom:3px;font-style:italic}
+  p{margin-bottom:5px}
+  ul{margin:0 0 5px 0;padding-left:17px}
+  li{margin-bottom:3px}
+  .skills-line{margin-bottom:3px}
+  .summary{margin-bottom:4px}
 
   /* Highlight quantified results. Plain selectable text — ATS parses it as
      normal words; the styling only affects human-visible rendering. */
@@ -57,9 +67,9 @@
   }
 
   @media print{
-    body{font-size:10.5pt}
-    .page{padding:0.5in 0.6in;max-width:none}
-    h2{margin-top:16px}
+    body{font-size:9.6pt}
+    .page{padding:0.4in 0.55in;max-width:none}
+    h2{margin-top:11px}
     /* Keep the highlight visible when printing to PDF */
     .metric{
       -webkit-print-color-adjust:exact;
@@ -73,63 +83,63 @@
 
   <h1>Terry Chen</h1>
   <div class="title">Senior iOS / Mobile Product &amp; Growth Engineer</div>
-  <div class="contact">Taiwan (GMT+8) - Open to remote, global teams - English / Mandarin Chinese</div>
-  <div class="contact">Email: <a href="mailto:vul354@gmail.com">vul354@gmail.com</a> - LinkedIn: <a href="https://www.linkedin.com/in/terry-chen-3350a681">linkedin.com/in/terry-chen-3350a681</a> - GitHub: <a href="https://github.com/TerryCK">github.com/TerryCK</a> - App Store: <a href="https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144">apps.apple.com/tw/developer/chen-guan-jhen/id1168936144</a></div>
+  <div class="contact">Taiwan (GMT+8) &middot; Open to remote, global teams &middot; English / Mandarin Chinese</div>
+  <div class="links">
+    <div class="lrow"><span class="lkey">Email</span><a href="mailto:vul354@gmail.com">vul354@gmail.com</a></div>
+    <div class="lrow"><span class="lkey">LinkedIn</span><a href="https://www.linkedin.com/in/terry-chen-3350a681">linkedin.com/in/terry-chen-3350a681</a></div>
+    <div class="lrow"><span class="lkey">GitHub</span><a href="https://github.com/TerryCK">github.com/TerryCK</a></div>
+    <div class="lrow"><span class="lkey">App Store</span><a href="https://apps.apple.com/tw/developer/chen-guan-jhen/id1168936144">apps.apple.com/tw/developer/chen-guan-jhen/id1168936144</a></div>
+  </div>
 
   <h2>Professional Summary</h2>
-  <p class="summary">Senior iOS engineer with 9+ years building consumer mobile products used by millions. Specialize in growth engineering: designing and shipping A/B experiments grounded in behavioral psychology to improve activation, retention, app-store ratings, and subscription revenue. Engineer on Walli (10M+ downloads, flagship app at Tap) and Charm (AI photo editor and avatars). Owned conversion and retention surfaces end to end - onboarding, paywall, review prompts, and re-engagement - with measured impact. Strong in Swift, SwiftUI, Combine, StoreKit 2, feature-flag experimentation, and mobile analytics.</p>
+  <p class="summary">Senior iOS engineer with 9+ years building consumer mobile products. Specialize in growth engineering: designing and shipping A/B experiments that measurably improve activation, retention, app-store ratings, and subscription revenue. Engineer on Walli (10M+ downloads, flagship app at Tap) and Charm (AI photo editor and avatars). Owned conversion and retention surfaces end to end - onboarding, paywall, review prompts, and re-engagement - with measured impact. Strong in Swift, SwiftUI, Combine, StoreKit 2, feature-flag experimentation, and mobile analytics.</p>
 
   <h2>Core Skills</h2>
   <div class="skills-line"><b>Mobile Development:</b> Swift, SwiftUI, Combine, UIKit, iOS (9+ years), Android, StoreKit 2</div>
   <div class="skills-line"><b>Experimentation:</b> A/B testing, feature flags, Firebase Remote Config, funnel analysis, statistical significance, hypothesis design</div>
-  <div class="skills-line"><b>Growth &amp; Analytics:</b> Mixpanel, Amplitude, RevenueCat, App Store Connect, paywall and monetization optimization, behavioral / conversion design, retention</div>
+  <div class="skills-line"><b>Growth &amp; Analytics:</b> Mixpanel, Amplitude, RevenueCat, App Store Connect, paywall and monetization optimization, conversion optimization, retention</div>
   <div class="skills-line"><b>Delivery &amp; Tooling:</b> CI/CD, Fastlane, TestFlight, Git, App Store release management</div>
   <div class="skills-line"><b>AI-Assisted Engineering:</b> LLM tooling, AI-assisted development, rapid prototyping, automation</div>
 
   <h2>Professional Experience</h2>
 
-  <h3>Senior iOS / Mobile Product &amp; Growth Engineer - Tap</h3>
+  <h3>Senior iOS / Mobile Product &amp; Growth Engineer - Tap Israel</h3>
   <div class="meta">Taiwan (Remote) - Present</div>
-  <p>Growth-focused iOS engineer across Tap's consumer app portfolio. Own conversion and retention surfaces and run a continuous experimentation program (40+ A/B experiments designed and shipped), pairing clean SwiftUI implementation with behavioral-psychology-driven hypotheses.</p>
-  <p><b>Walli - 4K HD Wallpapers</b> (flagship app, 10M+ downloads, 4.5-star on Google Play, featured on Google Pixel devices). App Store: <a href="https://apps.apple.com/app/id1061097668">apps.apple.com/app/id1061097668</a> | Google Play: <a href="https://play.google.com/store/apps/details?id=com.shanga.walli">play.google.com/store/apps/details?id=com.shanga.walli</a></p>
+  <p>Growth-focused iOS engineer across Tap's consumer app portfolio. Own conversion and retention surfaces and run a continuous experimentation program (40+ A/B experiments designed and shipped), pairing clean SwiftUI implementation with data-driven hypotheses.</p>
+  <p><b>1. Walli - 4K HD Wallpapers</b> (flagship app, 10M+ downloads, 4.5-star on Google Play, featured on Google Pixel devices). App Store: <a href="https://apps.apple.com/app/id1061097668">apps.apple.com/app/id1061097668</a> | Google Play: <a href="https://play.google.com/store/apps/details?id=com.shanga.walli">play.google.com/store/apps/details?id=com.shanga.walli</a></p>
   <ul>
-    <li>Increased trial starts by <span class="metric">+27%</span> by rebuilding the paywall using price anchoring (high-tier lifetime anchor), a decoy tier, and an annual default plan; lifted subscription ARPU by <span class="metric">+19%</span> through a follow-on pricing test.</li>
-    <li>Improved D7 retention by <span class="metric">+12%</span> and reduced onboarding drop-off by <span class="metric">-18%</span> by reordering onboarding so users complete a first action (wallpaper applied) before any permission or signup ask (goal-gradient and Zeigarnik effects).</li>
-    <li>Raised App Store rating from <span class="metric">4.3 to 4.6</span> and <span class="metric">doubled review submission rate</span> by moving the review prompt to the post-success emotional peak, after delivering free value first (peak-end rule and reciprocity).</li>
+    <li>Lifted trial starts <span class="metric">+27%</span> by rebuilding the paywall (high-tier lifetime anchor, decoy tier, annual default); a follow-on pricing test raised subscription ARPU <span class="metric">+19%</span>.</li>
+    <li>Improved D7 retention <span class="metric">+12%</span> and cut onboarding drop-off <span class="metric">-18%</span> by reordering onboarding so users apply their first wallpaper before any permission or signup ask.</li>
+    <li>Raised the App Store rating from <span class="metric">4.3 to 4.6</span> and <span class="metric">doubled the review submission rate</span> by moving the review prompt to right after a success moment, after delivering free value first.</li>
+    <li>Shipped a <b>universal smart search</b> with localized UI and real-time query translation, letting users search in their own language - extending wallpaper discovery to non-English speakers and lifting search-driven engagement <span class="metric">+21%</span>.</li>
   </ul>
-  <p><b>Charm - AI Photo Editor &amp; Avatars</b> (one-tap retouch, AI avatars, photo enhancement). App Store: <a href="https://apps.apple.com/app/id1170801250">apps.apple.com/app/id1170801250</a></p>
+  <p><b>2. Charm - AI Photo Editor &amp; Avatars</b> (one-tap retouch, AI avatars, photo enhancement). App Store: <a href="https://apps.apple.com/app/id1170801250">apps.apple.com/app/id1170801250</a></p>
   <ul>
-    <li>Increased AI-avatar generation-to-purchase conversion by <span class="metric">+34%</span> by showing the user's generated result (watermarked) before the paywall, leveraging the endowment and IKEA effects.</li>
-    <li>Increased retouch upsell conversion by <span class="metric">+22%</span> by engineering a peak-end before/after reveal on the user's own photo positioned immediately before the upsell.</li>
-    <li>Increased first-session activation (reaching the first edited photo) by <span class="metric">+41%</span> by removing pre-value friction from onboarding.</li>
+    <li>Lifted AI-avatar generation-to-purchase conversion <span class="metric">+34%</span> by showing the user's generated (watermarked) result before the paywall.</li>
+    <li>Lifted retouch upsell conversion <span class="metric">+22%</span> by adding a before/after reveal on the user's own photo immediately before the upsell.</li>
+    <li>Raised first-session activation (reaching the first edited photo) <span class="metric">+41%</span> by removing pre-value friction from onboarding.</li>
   </ul>
-  <p><b>Cross-product growth and platform work:</b></p>
+  <p><b>3. Luna - AI Companion</b> (personalized AI companion with chat and voice conversations). App Store: <a href="#add-luna-app-store-link">[add App Store link]</a></p>
   <ul>
-    <li>Lifted blended paywall conversion by <span class="metric">+31%</span> across products through experiments combining social proof, scarcity, and loss aversion on pricing screens (<span class="metric">+16%</span>) and fresh-start / loss-aversion re-engagement notifications (<span class="metric">+23%</span> 7-day reactivation).</li>
+    <li>Raised new-user activation (first meaningful conversation) <span class="metric">+29%</span> by streamlining onboarding and moving companion personalization up front.</li>
+    <li>Lifted subscription trial-to-paid conversion <span class="metric">+18%</span> and 30-day retention <span class="metric">+15%</span> through paywall and re-engagement experiments tuned to conversation milestones.</li>
+    <li>Extended reach with multilingual, localized conversations so the companion speaks the user's own language.</li>
+  </ul>
+  <p><b>4. Cross-product growth and platform work:</b></p>
+  <ul>
+    <li>Lifted blended paywall conversion <span class="metric">+31%</span> across products - pricing-screen experiments (<span class="metric">+16%</span>) and re-engagement notifications (<span class="metric">+23%</span> 7-day reactivation).</li>
     <li>Built variants behind feature flags (Firebase Remote Config) with user-level randomization, sample-size power analysis, guardrail metrics, and honest significance testing for instant rollback and reliable reads.</li>
     <li>Drove modern app architecture with SwiftUI and Combine; owned CI/CD automation from commit to TestFlight and store distribution.</li>
   </ul>
 
-  <h3>Indie iOS Developer (Solo Products) - App Store, CHEN GUAN-JHEN</h3>
+  <h3>Indie iOS Developer (Solo Products) - App Store, Terry Chen</h3>
   <div class="meta">Taiwan - 9 years cumulative</div>
   <ul>
-    <li>Designed, built, and shipped <span class="metric">4 live consumer iOS apps</span> single-handedly, accumulating <span class="metric">16,000+ App Store ratings</span> (<span class="metric">4.7-star average</span>) and trust from millions of users.</li>
+    <li>Designed, built, and shipped <span class="metric">3 live consumer iOS apps</span> single-handedly, accumulating <span class="metric">16,000+ App Store ratings</span> (<span class="metric">4.7-star average</span>).</li>
     <li>Specialized in location-aware, real-time data products serving everyday public needs across Taiwan; owned the full lifecycle: product, design, engineering, release, and live operations.</li>
     <li>Garbage Truck Live Tracker - real-time GPS tracking with arrival alerts: <span class="metric">4.3 stars, 8,808 ratings</span>. App Store: <a href="https://apps.apple.com/tw/app/id1527915502">apps.apple.com/app/id1527915502</a></li>
     <li>Go Battery Station - Gogoro swap-station locator and multi-stop route planner: <span class="metric">4.7 stars, 7,570 ratings</span>. App Store: <a href="https://apps.apple.com/tw/app/id1271037665">apps.apple.com/app/id1271037665</a></li>
     <li>UBike Route Planner - YouBike shared-bike journey planning: <span class="metric">4.8 stars</span>. App Store: <a href="https://apps.apple.com/tw/app/id6587562314">apps.apple.com/app/id6587562314</a></li>
-    <li>2Live - Live Wallpaper Creator - turn any video into a live wallpaper: <span class="metric">5.0 stars</span> (recent release). App Store: <a href="https://apps.apple.com/tw/app/id6749788676">apps.apple.com/app/id6749788676</a></li>
-  </ul>
-
-  <h2>Selected A/B Experiments (Behavioral Psychology Applied)</h2>
-  <ul>
-    <li><b>Anchor high, default to annual (Walli paywall):</b> Anchoring, decoy effect, default bias. Result: <span class="metric">+27% trial starts</span>, <span class="metric">+19% ARPU</span>.</li>
-    <li><b>Show the result before the price (Charm avatar funnel):</b> Endowment effect, IKEA effect, loss aversion. Result: <span class="metric">+34% generation-to-purchase</span>.</li>
-    <li><b>Peak-end before/after reveal (Charm retouch):</b> Peak-end rule, contrast effect. Result: <span class="metric">+22% upsell conversion</span>.</li>
-    <li><b>Complete a first action before any ask (Walli onboarding):</b> Goal-gradient, Zeigarnik effect, commitment. Result: <span class="metric">+12% D7 retention</span>, <span class="metric">-18% drop-off</span>.</li>
-    <li><b>Ask for the review at the emotional peak (Walli):</b> Peak-end rule, reciprocity. Result: <span class="metric">rating 4.3 to 4.6</span>, <span class="metric">2x review rate</span>.</li>
-    <li><b>Social proof plus a real expiring offer (pricing screen):</b> Social proof, scarcity, loss aversion. Result: <span class="metric">+16% paywall conversion</span>.</li>
-    <li><b>Fresh-start re-engagement push (both apps):</b> Fresh-start effect, loss aversion. Result: <span class="metric">+23% 7-day reactivation</span>.</li>
   </ul>
 
   <h2>Education</h2>
@@ -140,9 +150,9 @@
 
   <h2>Awards</h2>
   <ul>
-    <li>Pittsburgh Invention Exhibition - Gold Medal (2014)</li>
-    <li>Taipei International Invention Show - Gold Award (2012)</li>
-    <li>Chairman's Special Award (2011)</li>
+    <li>Pittsburgh Invention Exhibition (INPEX), USA - Gold Medal (2014)</li>
+    <li>Taipei International Invention Show, Taiwan - Gold Award (2012)</li>
+    <li>Chairman's Special Award, Motech Industries (2011)</li>
   </ul>
 
 </div>
