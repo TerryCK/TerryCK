@@ -7,11 +7,11 @@
 
 This is **Terry Chen** — a **mobile app engineer, product engineer, and AI product builder** from Taiwan 🇹🇼. Over **10+ years** I've shipped consumer & AI products end-to-end across **iOS, Android, and backend** — owning product decisions, monetization, and growth — and I ship with **multi-model AI agent workflows** (Claude · Codex · Gemini) that compress design-to-release time.
 
-I build product & growth at **Tap**, an **Israeli AI company** whose portfolio has passed **10 billion downloads**. I own conversion, monetization & retention across **Walli**, **Charm**, and **Luna** — pitching product direction to the CEO and building the AI features: **Walli's AI wallpaper generation**, and **Luna's multimodal companion** (text · voice · video chat, with OCR/vision on a **RAG-powered** harness). As an **indie founder**, my own solo apps have earned **16,000+ App Store ratings** (up to **5.0★**), used daily across 20+ cities.
+I build product & growth at **Tap**, an **Israeli AI company** whose portfolio has passed **10 billion downloads**. I own conversion, monetization & retention across **Walli**, **Charm**, and **Luna** — pitching product direction to the CEO and building the AI features: **Walli's AI wallpaper generation**, and **Luna's multimodal companion** (text · voice · video chat, with OCR/vision on a **RAG-powered** harness). As an **indie founder**, my own solo apps have earned **16,000+ App Store ratings** (**4.7★ average**), used daily across 20+ cities.
 
 ### 📈 Growth & Impact
 
-**10B+** downloads (Tap portfolio) &nbsp;·&nbsp; **10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (up to **5.0★**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
+**10B+** downloads (Tap portfolio) &nbsp;·&nbsp; **10M+** Walli downloads &nbsp;·&nbsp; **16K+** App Store ratings on my own apps (**4.7★ average**) &nbsp;·&nbsp; **20+** cities running my real-time apps daily
 
 📊 Beyond raw scale — I optimize for **LTV, engagement & retention**, driving **double-digit lifts** in trial starts, subscription ARPU, retention & store rating via **A/B experiments** (instrumented with **Mixpanel** & **RevenueCat**, shipped behind feature flags).
 
@@ -23,7 +23,7 @@ I build product & growth at **Tap**, an **Israeli AI company** whose portfolio h
 
 ### What I do
 
-- **Product & ownership** — product direction, monetization & pricing, growth experimentation, 0-to-1 solo shipping; I pitch product direction to the CEO and measure on **LTV, engagement & retention**
+- **Product & ownership** — product direction, monetization & pricing, growth experimentation, SEO/ASO, 0-to-1 solo shipping; I pitch product direction to the CEO and measure on **LTV, engagement & retention**
 - **AI & agentic workflows** — LLM app integration, multi-model orchestration (Claude / Codex / Gemini), RAG (Retrieval-Augmented Generation), AI avatars & multimodal companions, MCP tool integration, agentic coding
 - **Native iOS** — Swift, SwiftUI, UIKit, Combine; Live Activities & Dynamic Island, WidgetKit, MapKit, StoreKit (IAP / subscriptions)
 - **Android** — Kotlin, native development for cross-platform consumer apps
@@ -37,9 +37,9 @@ Apps I founded and ship solo under my own App Store account:
 
 | App | What it does | Rating | Ratings | Since |
 |---|---|---|---|---|
-| 🗑️ **[Garbage Truck Tracker](https://apps.apple.com/tw/app/id1527915502)** | Real-time GPS tracking of municipal trucks across 20+ Taiwanese cities — Live Activities, Dynamic Island, home-screen widgets, smart arrival alerts | ⭐ 4.3 | **8,800+** | 2020 |
-| 🔋 **[Go Battery](https://apps.apple.com/tw/app/id1271037665)** | Trip planner that chains EV battery-swap stations so riders never run out of charge on long routes | ⭐ 4.7 | **7,500+** | 2017 |
-| 🚲 **[UBike eBike Planner](https://apps.apple.com/tw/app/id6587562314)** | Shared e-bike journey planning with live rental status and Live Activities | ⭐ 4.8 | 30+ | 2024 |
+| 🗑️ **[Garbage Truck Live Tracker](https://apps.apple.com/tw/app/id1527915502)** | Real-time GPS tracking of municipal trucks across 20+ Taiwanese cities — Live Activities, Dynamic Island, home-screen widgets, smart arrival alerts | ⭐ 4.3 | **8,800+** | 2020 |
+| 🔋 **[Go Battery Station](https://apps.apple.com/tw/app/id1271037665)** | Trip planner that chains EV battery-swap stations so riders never run out of charge on long routes | ⭐ 4.7 | **7,500+** | 2017 |
+| 🚲 **[UBike Route Planner](https://apps.apple.com/tw/app/id6587562314)** | Shared e-bike journey planning with live rental status and Live Activities | ⭐ 4.8 | 30+ | 2024 |
 
 ---
 
